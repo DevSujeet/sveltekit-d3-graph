@@ -16,7 +16,7 @@
 </section> -->
 <!--  -->
 
-<script lang="ts">
+<!-- <script lang="ts">
   import { onMount } from 'svelte';
   import { createWebSocket } from '$lib/websocket';
 
@@ -65,4 +65,12 @@
     font-family: sans-serif;
     margin-bottom: 10px;
   }
-</style>
+</style> -->
+
+<script lang="ts">
+  // import CanvasChart from '$components/CanvasChart.svelte';
+  import CanvasChart from '../components/CanvasChart.svelte';
+</script>
+
+<h2>📊 Optimized Real-Time Chart</h2>
+<CanvasChart />
